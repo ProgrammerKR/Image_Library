@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Library</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <h1>Image Library</h1>
+    <div id="search-form">
+        <input type="text" id="search-input" placeholder="Search for images..." />
+        <button id="search-button">Search</button>
+    </div>
+    <div class="gallery" id="gallery"></div>
+    <div class="error-message" id="error-message"></div>
+    <button id="load-more" style="display: none;">Load More</button>
+    <div class="watermark">Created by Prog. Kanishk Raj</div>
+
+    <!-- Modal for Image Actions -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <img id="modal-image" src="" alt="Selected Image" />
+            <p id="image-message">Long press on the image and then click on download image to download it.</p>
+            <button id="close-modal">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to JS file -->
+</body>
+</html>
