@@ -23,7 +23,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/image-library.git
+    git clone https://github.com/your-username/Image_Library.git
     ```
 
 2. Open the `index.html` file in your browser to launch the app.
